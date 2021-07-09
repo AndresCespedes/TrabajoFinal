@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Usuarios</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../diseño/main.css">
+    <link rel="stylesheet" type="text/css" href="../diseño/maintable.css">
+    <link rel="shortcut icon" href="../imagenes/logo.png">
+  </head>
+  <body>
+  	<nav class="menu">
+      <input id ="menu__toggle" type="checkbox" class='menu__toggle'/>
+      <label for="menu__toggle" class="menu__toggle-label">
+        <svg preserveAspectRatio='xMinYMin' viewBox='0 0 24 24'>
+          <path d='M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z' />
+        </svg>
+        <svg preserveAspectRatio='xMinYMin' viewBox='0 0 24 24'>
+          <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+        </svg>
+      </label>
+      <ol class='menu__content'>
+      <li class="menu-item"><a href="../interfaz/inicio.html">Inicio</a></li>
+      <li class="menu-item"><a href="historiaclinica.html">Historia Clínica</a></li>
+      <li class="menu-item">
+        <a href="reporte.html">Reporte</a>
+        <ol class="sub-menu">
+          <li class="menu-item"><a href="buscarodontologo.html">Buscar por Doctor</a></li>
+          <li class="menu-item"><a href="buscarpaciente.html">Buscar por Paciente</a></li>
+        </ol>
+      </li>
+      <li class="menu-item">
+        <a href="generar_recibos.html">Generar Recibos</a>
+        <ol class="sub-menu">
+          <li class="menu-item"><a href="buscar_usuario.html">Buscar Usuario</a></li>
+          <li class="menu-item"><a href="buscar_recibo.html">Buscar Recibo</a></li>
+          <li class="menu-item"><a href="fecha.html">Informe por Fecha</a></li>
+        </ol>
+      </li>
+      <li class="menu-item"><a href="usuarios.html">Usuarios</a></li>
+      <li class="menu-item"><a href="estadisticas.html">Estadisticas</a></li>
+      <li class="menu-item"><a href="../interfaz/login.html">Salir</a></li>
+      </ol>
+    </nav>
+    <div class="main">
+    <div class="flex"> 
+                <select class="ips">
+                        <option disabled selected>Tipo de usuario</option>
+                        <option value="ADMINISTRADOR">ADMINISTRADOR</option>
+                        <option value="DOCENTE">DOCENTE</option>
+                        <option value="ESTUDIANTE ORTODONCIA">ESTUDIANTE ORTODONCIA</option>
+                        <option value="ESTUDIANTE PERIODONCIA">ESTUDIANTE PERIODONCIA</option>
+                        <option value="PACIENTE">PACIENTE</option>
+                        <option value="AUX CAJA">AUX CAJA</option>
+                </select>
+                <input type="text" placeholder="buscar por nombre">
+                <input type="text" placeholder="buscar por cédula">
+            </div>
+            <div class="flex-table">
+                <table>
+                    <tr>
+                        <!-- el th son las cabeceras-->
+                        <th>identificación</th>
+                        <th>Nombres y apellidos</th>
+                        <th>Tipo de usuario</th>
+                        <th>Estado</th>
+                    </tr>
+                    <tr>
+                        <!-- el td son los elementos de las tablas-->
+                        <td>111111111</td>
+                        <td>usuario de prueba</td>
+                        <td>GERENTE</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>222222222</td>
+                        <td>usuario de prueba 2</td>
+                        <td>VENTAS</td>
+                        <td>Activo</td>  
+                    </tr>
+                    <tr>
+                        <td>333333333</td>
+                        <td>usuario de prueba 3</td>
+                        <td>DBA</td>
+                        <td>Activo</td>  
+                    </tr>
+                    <tr>
+                        <td>444444444</td>
+                        <td>usuario de prueba 4</td>
+                        <td>INVENTARIOS</td>
+                        <td>Inactivo</td>  
+                    </tr>
+                </table>
+            </div>
+          </div>
+  </body>
+</html>

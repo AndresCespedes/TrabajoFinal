@@ -1,0 +1,157 @@
+
+
+@media screen and (max-width: 980px){
+    .reporte{
+        width: 90%;
+		margin: 0 auto;
+    }
+    .button{
+        width: 15%;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .reporte{
+        width: 90%;
+		margin: 0 auto;
+        height: 100%;
+    }
+    button{
+        width: 100%;
+    }
+
+}
+
+body {
+	background-color: #eee;
+   background-image: url("/imagenes/historia\ clinica.jpg");
+    background-image: linear-gradient(to right, rgb(179, 247, 117), rgb(85, 139, 238));
+}
+
+
+p{
+    margin-top: 35px;
+}
+
+.content{
+    display: flex;  
+    flex-direction: column;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.flex-button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+fieldset{
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+
+.title{
+    margin-left: 680px;
+}
+
+.text-user{
+    width: 50%;
+}
+
+input{
+    margin: 20px 35px;
+    width: 40%;
+    border-radius: 5px;
+    border-style: solid 0px;
+	border: none;
+	border-bottom: 1px solid;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.692);
+}
+
+.flex input[type="date"]{
+    width: 25%;
+}
+
+.ips{
+    border-radius: 5px;
+    margin: 20px 35px;
+    padding: 5px;
+    width: 30%;
+}
+
+
+label{
+    text-align: left;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+    height: 100%;
+    background: white;
+    font-size: 0.65em;
+    background-color: rgba(255, 255, 255, 0.692);
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.8);
+}
+
+button{
+    width: 15%;
+    background-color: rgba(228, 236, 238, 0.582);
+	margin: 30px;
+	border-radius: 5px;
+	border-style: none;
+	padding: 5px;
+	transition: 0.4s;
+	border: 1px solid;
+}
+
+button:hover{
+    transform: scale(1.1);
+	cursor: pointer;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    width: 68%;
+    border-radius: 5px;
+    border-style: solid 0px;
+	border: none;
+	border-bottom: 1px solid;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.692);
+}
+
+
+.reporte{
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    margin-top: 50px;
+    width: 65%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.692);
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.8);
+    border: 1px solid;
+    overflow-x: auto;
+}
+

@@ -1,0 +1,137 @@
+*{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+
+}
+*{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+
+}
+@media screen and (max-width: 980px){
+    #contenedor{
+        width: 85%;
+		margin: 0 auto;
+		margin-top: 80px;
+		overflow-x: auto;
+    }
+
+	.form-title{
+		letter-spacing: 2px;
+		font-size: 10px;
+		text-align: center;
+		color: rgb(54, 132, 168);
+		-webkit-text-stroke: 1px black;
+		overflow-x: auto;
+	}
+}
+
+@media screen and (max-width: 360px min-width 651px){
+
+
+	.form-title{
+		letter-spacing: 2px;
+		font-size: 10px;
+		text-align: center;
+		color: rgb(54, 132, 168);
+		-webkit-text-stroke: 1px black;
+	}
+}
+
+
+body {
+	background-image: url("../imagenes/clínica\ odontologica.jpg");
+	background-size: 1558px 900px;
+}
+
+.form-main {
+	background-color: rgba(255, 255, 255, 0.692);
+	margin: 0 60px;
+	max-width: 400px;
+	margin-top: 100px;
+	border-radius: 5px;
+	box-shadow: 0px 4px 8px rgba(0,0,0,0.8);
+	
+}
+
+.form-title{
+	letter-spacing: 3px;
+	font-size: 40px;
+	text-align: center;
+	color: rgb(54, 132, 168);
+	-webkit-text-stroke: 1px black;
+}
+
+.place-user{
+	text-align: center;
+	padding: 10px;
+}
+
+.place-password{
+	text-align: center;
+	padding: 10px;
+}
+
+.form-main input[type="password"],
+.form-main input[type="email"]{
+
+	background-color: rgba(228, 236, 238, 0.582);
+	padding: 10px;
+	border-radius: 5px;
+	border-style: solid 0px;
+	border: none;
+	border-bottom: 1px solid;
+	width: 80%;
+}
+
+.form-main input[type=submit]{
+	
+	background-color: rgba(228, 236, 238, 0.582);
+	margin: 20px auto;
+	width: 35%;
+	border-radius: 5px;
+	border-style: none;
+	padding: 15px;
+	transition: 0.4s;
+	width: 80%;
+	border: 1px solid;
+
+}
+
+.button{
+	text-align: center;
+}
+
+.boton{
+	background-color: rgba(228, 236, 238, 0.582);
+	margin: 20px auto;
+	width: 35%;
+	border-radius: 5px;
+	border-style: none;
+	padding: 15px;
+	transition: 0.4s;
+	width: 80%;
+	border: 1px solid;
+}
+
+.boton a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.form-main input[type=submit]:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.logo img{
+	width: 90px;
+	padding: 40px;
+	height: 90px;
+}
+
+.logo{
+	margin-top: 0px;
+	display: flex;
+}
